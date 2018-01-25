@@ -107,16 +107,6 @@
 				"foreground": "#a973ad"
 			}
 		},
-		// {
-		// 	"name": "regex dark blue",
-		// 	"scope": [
-		// 		"punctuation.definition.group.regexp",
-		// 		"punctuation.definition.character-class.regexp"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#7bb6b2"
-		// 	}
-		// },
 		{
 			"name": "darkest limegreen: css semi-colons",
 			"scope": [
@@ -133,7 +123,7 @@
 				"meta.function-call",
 				"variable.language.super",
 				"entity.name.function.tagged-template",
-				"support.type.property-name.json",
+				//"support.type.property-name.json", looks nicer but less coherent
 				"support.function"
 			],
 			"settings": {
@@ -159,8 +149,10 @@
 				"meta.array.literal punctuation.separator",
 				"meta.brace.square",
 				"punctuation.separator.key-value",
-				"meta.tag.block.any.html",
-				"meta.property-list"
+				"meta.tag",
+				"meta.property-list",
+				"punctuation.support.type.property-name",
+				"meta.structure.dictionary.json"
 			],
 			"settings": {
 				"foreground": "#83B0A8"
@@ -223,7 +215,8 @@
 				"punctuation.accessor",
 				"variable.other.property",
 				"variable.other.object.property",
-				"support.constant"
+				"support.constant",
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#cbffee"
@@ -232,8 +225,7 @@
 		{
 			"name": "yellow-green: this",
 			"scope": [
-				"variable.language.this",
-				"constant.other.character-class.set.regexp"
+				"variable.language.this"
 			],
 			"settings": {
 				"foreground": "#edffcb"
@@ -248,7 +240,15 @@
 				"foreground": "#f9bcff"
 			}
 		},
-
+		{
+			"name": "pale pink: regex char class",
+			"scope": [
+				"constant.other.character-class.set.regexp"
+			],
+			"settings": {
+				"foreground": "#fddcff"
+			}
+		},
 		{
 			"name": "italic: function parameters",
 			"scope": [
@@ -341,16 +341,6 @@
 			],
 			"settings": {
 				"foreground": "#ff00bf"
-			}
-		},
-
-		{
-			"name": "pale yellow: regex char class [...]",
-			"scope": [
-				"constant.other.character-class.set.regexp"
-			],
-			"settings": {
-				"foreground": "#edffcb"
 			}
 		}
 	]
