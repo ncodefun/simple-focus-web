@@ -63,6 +63,7 @@
 			"name": "limegreen: values",
 			"scope": [
 				"constant",
+				"support.constant.color",
 				"markup.inline.raw",
 				"string.quoted",
 				"meta.property-value.css",

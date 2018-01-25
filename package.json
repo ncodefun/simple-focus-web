@@ -2,7 +2,7 @@
     "name": "simple-focus-web",
     "displayName": "Simple Focus Web",
     "description": "Theme focused on values, with all types colored with the same vivid color. Works great with lit-html.",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "publisher": "ncodefun",
     "engines": {
         "vscode": "^1.19.0"
@@ -27,10 +27,5 @@
         "type": "git",
         "url": "https://github.com/ncodefun/simple-focus-web.git"
     },
-    "icon": "icon.png",
-    "__metadata": {
-        "id": "",
-        "publisherDisplayName": "ncode.fun",
-        "publisherId": ""
-    }
+    "icon": "icon.png"
 }
