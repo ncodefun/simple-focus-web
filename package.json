@@ -1,0 +1,36 @@
+{
+    "name": "simple-focus-web",
+    "displayName": "Simple Focus Web",
+    "description": "Theme focused on values, with all types colored with the same vivid color. Optimized for lit-html.",
+    "version": "0.6.0",
+    "publisher": "ncodefun",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Simple Focus Web",
+                "uiTheme": "vs-dark",
+                "path": "./themes/simple-focus-web.color-theme.json"
+            }
+        ]
+    },
+    "homepage": "https://github.com/ncodefun/simple-focus-web/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/ncodefun/simple-focus-web/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ncodefun/simple-focus-web.git"
+    },
+    "icon": "icon.png",
+    "__metadata": {
+        "id": "",
+        "publisherDisplayName": "ncode.fun",
+        "publisherId": ""
+    }
+}

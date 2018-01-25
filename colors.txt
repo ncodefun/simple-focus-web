@@ -1,0 +1,36 @@
+cyan								00FFFF (values) 17f5f5
+
+bluegreen						8BEED9 
+bluegreen-medium		81C6BE (operators) X
+										7b9fa1 (commas)
+bluegreen-dark			749791 (storage keywords: func, var, @param etc., brackets, control flow: if, for etc.)
+bluegreen-darker 		607c74 (docs comments)
+bluegreen-darkest		566C69 (comments, semi-colons)
+
+green								AEEE95 (global constants) X
+green-light					C1DCAA (obj.keys, uppercase (constants) )
+
+yellow-subtil b3b69a
+
+C1DCAA
+
+6eff7a
+
+dark green 90bd7e
+
+yellow arithmetic eaf7b2
+
+operator old 96eeea
+
+new bright blue bdfffd
+mix AAF7F4
+
+
+functions 34F3EE
+
+
+
+97fde7 functions
+
+
+a9ac81
