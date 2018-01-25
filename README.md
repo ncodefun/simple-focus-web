@@ -12,16 +12,19 @@ Successor of the 'simple-focus' theme, with a more coherent and uniform color pa
 
 ### Javascript, Javascript + HTML (lit-html)
 
-![js screenshot](./screenshots/preview-js.png =1400x)
+<img src='./screenshots/preview-js.png' width='1400' alt='js screenshot'>
 
 ### HTML
 
-![html screenshot](./screenshots/preview-html.png =1400x)
+![html screenshot](./screenshots/preview-html.png)
+<img src='./screenshots/preview-html.png' width='1400' alt='html screenshot'>
 
 ### CSS
 
-![css screenshot](./screenshots/preview-css.png =1400x)
+![css screenshot](./screenshots/preview-css.png)
+<img src='./screenshots/preview-css.png' width='1400' alt='css screenshot'>
 
 ### JSON
 
-![css screenshot](./screenshots/preview-json.png =1400x)
+![json screenshot](./screenshots/preview-json.png)
+<img src='./screenshots/preview-json.png' width='1400' alt='json screenshot'>
