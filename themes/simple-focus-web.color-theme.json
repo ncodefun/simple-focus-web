@@ -60,6 +60,15 @@
 			}
 		},
 		{
+			"name": "regexp string",
+			"scope": [
+				"string.regexp"
+			],
+			"settings": {
+				"foreground": "#ddd"
+			}
+		},
+		{
 			"name": "limegreen: values",
 			"scope": [
 				"constant",
