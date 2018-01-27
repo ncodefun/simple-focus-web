@@ -1,6 +1,10 @@
 # Change Log
 
 
+
+## [0.7.3]
+	regexp strings are now grey
+
 ## [0.7.1]
 	Color constants (css) are now correctly colored as a value
 
