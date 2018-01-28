@@ -1,6 +1,9 @@
 # Change Log
 
 
+## [0.7.4]
+	strings in normal template literal now also grey
+	delete keyword is now pink/red
 
 ## [0.7.3]
 	regexp strings are now grey

@@ -62,7 +62,8 @@
 		{
 			"name": "regexp string",
 			"scope": [
-				"string.regexp"
+				"string.regexp",
+				"string.js.taggedTemplate"
 			],
 			"settings": {
 				"foreground": "#ddd"
@@ -347,10 +348,11 @@
 		{
 			"name": "pink: regexp negation",
 			"scope": [
-				"keyword.operator.negation"
+				"keyword.operator.negation",
+				"keyword.operator.expression.delete"
 			],
 			"settings": {
-				"foreground": "#ff00bf"
+				"foreground": "#ff5fb7"
 			}
 		}
 	]
