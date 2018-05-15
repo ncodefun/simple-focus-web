@@ -1,5 +1,7 @@
 # Change Log
 
+## [0.7.5]
+	Changed color for control flow keywords (if else switch...) so they stand out.
 
 ## [0.7.4]
 	strings in normal template literal now also grey
