@@ -7,16 +7,19 @@
 		"editor.selectionBackground": "#5a5a36",
 		"editor.inactiveSelectionBackground": "#686741",
 		"editor.selectionHighlightBackground": "#686741",
-		"editor.findMatchBackground": "#8b8a2f",
-		"editor.findMatchHighlightBackground": "#6e6e46",
+		"editor.findMatchBackground": "#00773366",
+		"editor.findMatchHighlightBackground": "#00ff0033",
 		"editorIndentGuide.background": "#404040",
-		"editor.wordHighlightBackground": "#706f1300",
+		"editorIndentGuide.activeBackground": "#CBFFEE88",
+		"editor.wordHighlightBackground": "#ffffff33",
 		"editor.wordHighlightStrongBackground": "#706f1300",
 		"statusBar.foreground": "#f5f034",
 		"statusBar.background": "#1d1d1e",
 		"activityBarBadge.background": "#f5f034",
 		"activityBarBadge.foreground": "#111111",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"sideBarTitle.foreground": "#bbbbbb",
+		"titleBar.activeBackground": "#202020",
+		"titleBar.activeForeground": "#b0ff91"
 	},
 	"tokenColors": [
 		{
@@ -76,6 +79,7 @@
 				"support.constant.color",
 				"markup.inline.raw",
 				"string.quoted",
+				"string.js.taggedTemplate",
 				"meta.property-value.css",
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.id.css",
@@ -100,7 +104,9 @@
 				"punctuation.definition.string",
 				"punctuation.definition.template-expression",
 				"keyword.other.unit",
-				"punctuation.terminator.rule.css"
+				"punctuation.terminator.rule.css",
+				"string.js.taggedTemplate string.js",
+				"punctuation.definition.string.template.end.js"
 			],
 			"settings": {
 				"foreground": "#91b683"
@@ -135,7 +141,8 @@
 				"variable.language.super",
 				"entity.name.function.tagged-template",
 				//"support.type.property-name.json", looks nicer but less coherent
-				"support.function"
+				"support.function",
+				"entity.name.function.js"
 			],
 			"settings": {
 				"foreground": "#8DFEF0"
@@ -174,7 +181,8 @@
 			"scope": [
 				"storage",
 				"entity.name.tag",
-				"meta.selector.css"
+				"meta.selector.css",
+				"keyword.operator.new.js"
 			],
 			"settings": {
 				"foreground": "#81a8a1"
@@ -192,23 +200,26 @@
 			}
 		},
 		{
-			"name": "grey-bluegreen: braces, parens, punctuation, control",
+			"name": "grey-bluegreen: braces, parens, punctuation",
 			"scope": [
 				"meta.brace.round",
 				"meta.parameters.js",
 				"punctuation.definition.block",
-				"punctuation.separator"
+				"punctuation.separator",
+				"punctuation.definition.parameters.begin",
+				"punctuation.definition.parameters.end",
 			],
 			"settings": {
 				"foreground": "#73887D"
 			}
 		},
 		{
+			"name": "control",
 			"scope": [
 				"keyword.control"
 			],
 			"settings": {
-				"foreground": "#978e97"
+				"foreground": "#7B9780"
 			}
 		},
 		{
@@ -217,15 +228,13 @@
 				"punctuation.terminator.statement"
 			],
 			"settings": {
-				"foreground": "#768173A0"
+				"foreground": "#768173bb"
 			}
 		},
 		{
 			"name": "bright pale bluegreen: function parameters, class name, window.objects, attr",
 			"scope": [
 				"variable.parameter",
-				"support.class",
-				"entity.name.type.class",
 				"entity.other.attribute-name",
 				"meta.object-literal.key",
 				"meta.object-literal.key string.quoted",
@@ -233,21 +242,11 @@
 				"punctuation.accessor",
 				"variable.other.property",
 				"variable.other.object.property",
-				"support.constant",
 				"support.type.property-name.json",
 				"support.type.property-name.css"
 			],
 			"settings": {
 				"foreground": "#cbffee"
-			}
-		},
-		{
-			"name": "yellow-green: this",
-			"scope": [
-				"variable.language.this"
-			],
-			"settings": {
-				"foreground": "#edffcb"
 			}
 		},
 		{
@@ -361,6 +360,43 @@
 			],
 			"settings": {
 				"foreground": "#ff5fb7"
+			}
+		},
+		{
+			"scope": [
+				"storage.type.property.js"
+			],
+			"settings": {
+				"foreground": "#c3b3dd"
+			}
+		},
+		{
+
+			"scope": [
+				"support.class",
+				"support.constant",
+				"variable.language.this",
+				"entity.name.type.class",
+				"new.expr.js",
+			],
+			"settings": {
+				"foreground": "#B4EBBD"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.double-slash.js",
+			],
+			"settings": {
+				"foreground": "#8a8460AA"
+			}
+		},
+		{
+			"scope": [
+				"meta.objectliteral",
+			],
+			"settings": {
+				"foreground": "#fff"
 			}
 		}
 	]

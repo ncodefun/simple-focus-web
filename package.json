@@ -1,8 +1,8 @@
 {
     "name": "simple-focus-web",
     "displayName": "Simple Focus Web",
-    "description": "Theme focused on values, with all types colored with the same vivid color. Works great with lit-html.",
-    "version": "0.7.5",
+    "description": "Limited color palette to avoid distraction – all values have the same, vivid color, faded colors for less important stuff (e.g. separators, semi-colons!). Works great with lit-html.",
+    "version": "1.0.0",
     "publisher": "ncodefun",
     "engines": {
         "vscode": "^1.19.0"
