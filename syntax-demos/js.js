@@ -2,29 +2,28 @@
 import { html } from './renderer.js';
 
 /**
- * Get an answer to something
- * @param {any} anything question asked
+ * Return index of a true thing
+ * @param {array} arr a list of things to check
  */
-function thing( p){ if( p) return p; }
-let x = 9;
-thing( x);
-var abc = 'abc'
-abc.charAt(0)
-window.localStorage
-document.createAttribute()
+function thing( arr){
+	for( let i = 0; i < 10; i++){
+		if( arr[ i] === true) 
+			return i;
+	}
+}
+let x = 9; thing( x);
 const arr = [1,2,3]; arr[3] = 4;
+const obj = { key1: 'one' , 'key2': 'two' , "key3": 'three' }; obj.key1;
 
-const obj = { key1: 'one' , 'key2': 'two' , "key3": 'three'};
-
-obj.test = (msg='') => { console.log( msg) }; 
-
-Object.create(); JSON.stringify(); window.localStorage.getItem();
+Object.create(); JSON.stringify(); localStorage.getItem();
 
 class Thing { 
 	constructor() { super(); this.x = 0; } 
 	other() {} 
 }
 new Thing();
+
+window.localStorage.setItem(); document.createElement();
 
 /^test\w+[a-z].*[^i]$/g
 
@@ -42,6 +41,20 @@ html`<div id='menu-header' @click='${ () => { this.open = !this.open } }'>`
 
 
 
+import { html } from './renderer.js';
+
+/**
+ * Get an answer to something
+ * @param {any} anything question asked
+ */
+function thing( p){ 
+	if( p){
+		for( let i=0; i<10; i++){
+
+		}
+	}
+	return p; 
+}
 
 
 

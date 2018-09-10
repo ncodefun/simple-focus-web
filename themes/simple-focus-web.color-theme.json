@@ -219,7 +219,7 @@
 				"keyword.control"
 			],
 			"settings": {
-				"foreground": "#7B9780"
+				"foreground": "#978E97"
 			}
 		},
 		{
@@ -405,7 +405,7 @@
 				"support.variable.dom.js"
 			],
 			"settings": {
-				"foreground": "#BFBBDB"
+				"foreground": "#8AAC90"
 			}
 		},
 	]
