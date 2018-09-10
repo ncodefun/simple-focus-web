@@ -8,14 +8,17 @@ import { html } from './renderer.js';
 function thing( p){ if( p) return p; }
 let x = 9;
 thing( x);
-
+var abc = 'abc'
+abc.charAt(0)
+window.localStorage
+document.createAttribute()
 const arr = [1,2,3]; arr[3] = 4;
 
 const obj = { key1: 'one' , 'key2': 'two' , "key3": 'three'};
 
 obj.test = (msg='') => { console.log( msg) }; 
 
-Object.create(); JSON.stringify(); localStorage.getItem();
+Object.create(); JSON.stringify(); window.localStorage.getItem();
 
 class Thing { 
 	constructor() { super(); this.x = 0; } 

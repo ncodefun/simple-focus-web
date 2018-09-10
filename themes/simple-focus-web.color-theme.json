@@ -398,6 +398,15 @@
 			"settings": {
 				"foreground": "#fff"
 			}
-		}
+		},
+		{
+			"name": "top level vars: window, document",
+			"scope": [
+				"support.variable.dom.js"
+			],
+			"settings": {
+				"foreground": "#BFBBDB"
+			}
+		},
 	]
 }

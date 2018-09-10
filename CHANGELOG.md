@@ -1,8 +1,12 @@
 # Change Log
 
-## [0.9.0]
-	changed color for support function/class: greyish green
-	control flow / new => dark green
+## [1.1.0]
+	purple top-0level vars: window and document
+
+## [1.0.0]
+	light green for support function/class (JSON, console etc.)
+	dark green for control flow 
+
 
 ## [0.8.0]
 	adjustments for comments and semi-colon colors
