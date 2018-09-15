@@ -81,8 +81,6 @@
 				"string.quoted",
 				"string.js.taggedTemplate",
 				"meta.property-value.css",
-				"entity.other.attribute-name.class.css",
-				"entity.other.attribute-name.id.css",
 				"support.constant.property-value.css"
 			],
 			"settings": {
@@ -276,7 +274,6 @@
 				"fontStyle": "italic"
 			}
 		},
-
 		{
 			"name": "medium orange: @param",
 			"scope": [
@@ -323,17 +320,6 @@
 				"foreground": "#7a7a69"
 			}
 		},
-		{
-			"name": "bright pale yellow: css special keywords, like @keyframe n%",
-			"scope": [
-				"keyword.control.at-rule",
-				"meta.at-rule.keyframes.body.css"
-			],
-			"settings": {
-				"foreground": "#e0e990"
-			}
-		},
-
 		{
 			"name": "yellow: regex range",
 			"scope": [
@@ -408,5 +394,80 @@
 				"foreground": "#8AAC90"
 			}
 		},
+		{
+			"scope": [
+				"entity.other.attribute-name.class.css"
+			],
+			"settings": {
+				"foreground": "#C3B3DD"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.id.css"
+			],
+			"settings": {
+				"foreground": "#D7BEFF"
+			}
+		},
+		{
+			"name": "green divide symbol (/) when this is a css ratio value (instead of blue operator)",
+			"scope": [
+				"meta.ratio.css keyword.operator.arithmetic.css"
+			],
+			"settings": {
+				"foreground": "#b0ff91"
+			}
+		},
+		{
+			"name": "animation definition name (after @keyframes), italic and more vivid/saturated",
+			"scope": [
+				"variable.parameter.keyframe-list.css",
+			],
+			"settings": {
+				"foreground": "#FFFF88",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "keywords (screen), value ((min-aspect-ratio)), keyframe %; basic yellow",
+			"scope": [
+				"support.type.property-name.media.css",
+				"support.constant.media.css",
+				"entity.other.keyframe-offset.percentage.css"
+			],
+			"settings": {
+				"foreground": "#e0e990",
+			}
+		},
+		{
+			"name": "@media @keyframes, and; same yellow but a bit transparent => darker",
+			"scope": [
+				"keyword.operator.logical.and.media.css",
+				"keyword.control.at-rule",
+			],
+			"settings": {
+				"foreground": "#e0e990c3",
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.parameters.end.bracket.round.css",
+				"punctuation.definition.parameters.begin.bracket.round.css",
+				"meta.at-rule.media.header.css punctuation.separator.key-value.css"
+			],
+			"settings": {
+				"foreground": "#FFFD9B77",
+			}
+		},
+		{
+			"scope": [
+				"meta.at-rule.keyframes.body.css",
+				"meta.at-rule.media.body.css"
+			],
+			"settings": {
+				"foreground": "#B7BE76"
+			}
+		}
 	]
 }

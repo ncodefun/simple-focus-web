@@ -1,0 +1,22 @@
+
+
+main#app > div[data-state='ready']::after {
+	content: 'hello';
+}
+
+@media screen and (min-aspect-ratio: 1/2) {
+	main {
+		color: red;
+	}
+}
+
+@keyframes sliding-appear {
+	0% {
+		transform: translateX(-60%) rotateY(-45deg);
+	}
+	100% {
+		transform: translateX(0) rotateY(0);
+	}
+}
+
+

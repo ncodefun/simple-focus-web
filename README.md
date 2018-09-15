@@ -3,7 +3,7 @@
 
 ## VS Code theme built from scratch for web languages (JS/HTML/CSS)
 
-- minimal, cold color palette
+- dark theme with a minimal color palette (mostly cold colors)
 - contrasting comments (orange hue)
 - all values have the same vivid green color
 - faded colors for less important stuff

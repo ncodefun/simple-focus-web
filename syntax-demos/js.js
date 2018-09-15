@@ -5,27 +5,24 @@ import { html } from './renderer.js';
  * Return index of a true thing
  * @param {array} arr a list of things to check
  */
-function thing( arr){
-	for( let i = 0; i < 10; i++){
-		if( arr[ i] === true) 
-			return i;
-	}
-}
+function thing( arr){ return arr }
+
 let x = 9; thing( x);
 const arr = [1,2,3]; arr[3] = 4;
 const obj = { key1: 'one' , 'key2': 'two' , "key3": 'three' }; obj.key1;
 
-Object.create(); JSON.stringify(); localStorage.getItem();
+Object.create(); JSON.stringify();
 
-class Thing { 
-	constructor() { super(); this.x = 0; } 
-	other() {} 
-}
-new Thing();
+class Thing { constructor() { super(); this.x = 0; }; methodA(){} } new Thing();
 
-window.localStorage.setItem(); document.createElement();
+document.createElement(); window.localStorage.setItem(); 
 
 /^test\w+[a-z].*[^i]$/g
+
+/// 	lit-html 
+html`
+	<div id='menu' @click='${ () => { this.open = !this.open } }'>
+`
 
 // line comment 
 /* block comment */
@@ -35,26 +32,6 @@ window.localStorage.setItem(); document.createElement();
 
 /// 	These are 'better comments' styles 					
 
-/// 	lit-html 
-html`<div id='menu-header' @click='${ () => { this.open = !this.open } }'>`
-
-
-
-
-import { html } from './renderer.js';
-
-/**
- * Get an answer to something
- * @param {any} anything question asked
- */
-function thing( p){ 
-	if( p){
-		for( let i=0; i<10; i++){
-
-		}
-	}
-	return p; 
-}
 
 
 

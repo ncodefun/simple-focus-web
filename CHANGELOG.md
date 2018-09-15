@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.3.0] (2018-09-15)
+	CSS: class and id for CSS are now violet to distinguish from green values
+	CSS: @media, @keyframes are now better
+
 ## [1.2.0]
 	revert to dark purple for control flow
 	dark green for top-level vars (window and document)
