@@ -339,10 +339,11 @@
 			}
 		},
 		{
-			"name": "pink: regexp negation",
+			"name": "pink: regexp negation, delete, label (top_loop:\nfor...)",
 			"scope": [
 				"keyword.operator.negation",
-				"keyword.operator.expression.delete"
+				"keyword.operator.expression.delete",
+				"entity.name.label.js"
 			],
 			"settings": {
 				"foreground": "#ff5fb7"

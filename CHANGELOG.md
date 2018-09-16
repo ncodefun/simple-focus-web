@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.3.1] (2018-09-15)
+	JS: added color for labels: vivid pink
+
 ## [1.3.0] (2018-09-15)
 	CSS: class and id for CSS are now violet to distinguish from green values
 	CSS: @media, @keyframes are now better
