@@ -13,9 +13,9 @@
 		"editorIndentGuide.activeBackground": "#CBFFEE88",
 		"editor.wordHighlightBackground": "#ffffff33",
 		"editor.wordHighlightStrongBackground": "#706f1300",
-		"statusBar.foreground": "#f5f034",
+		"statusBar.foreground": "#b0ff91",
 		"statusBar.background": "#1d1d1e",
-		"activityBarBadge.background": "#f5f034",
+		"activityBarBadge.background": "#b0ff91",
 		"activityBarBadge.foreground": "#111111",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"titleBar.activeBackground": "#202020",
@@ -358,7 +358,6 @@
 			}
 		},
 		{
-
 			"scope": [
 				"support.class",
 				"support.constant",
@@ -435,7 +434,8 @@
 			"scope": [
 				"support.type.property-name.media.css",
 				"support.constant.media.css",
-				"entity.other.keyframe-offset.percentage.css"
+				"entity.other.keyframe-offset.percentage.css",
+				
 			],
 			"settings": {
 				"foreground": "#e0e990",
