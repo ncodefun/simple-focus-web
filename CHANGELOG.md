@@ -1,5 +1,12 @@
 # Change Log
 
+## [2.0.3] (2018-10-02)
+	Fixed object literal key was green instead of blue
+
+## [2.0.0] (2018-09-30)
+	UI: started to theme the UI
+	
+
 ## [1.3.1] (2018-09-15)
 	JS: added color for labels: vivid pink
 
