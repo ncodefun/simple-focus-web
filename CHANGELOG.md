@@ -1,5 +1,11 @@
 # Change Log
 
+## [2.1.0] (2018-11-15)
+	comments are now a lot darker (use 'better comments' extension for special colored comments)
+	added inherited class color
+	fixes with quotes
+
+
 ## [2.0.3] (2018-10-02)
 	Fixed object literal key was green instead of blue
 

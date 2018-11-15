@@ -2,7 +2,7 @@
     "name": "simple-focus-web",
     "displayName": "Simple Focus Web",
     "description": "Limited color palette to avoid distraction – all values have the same, vivid color, faded colors for less important stuff (e.g. separators, semi-colons!). Works great with lit-html.",
-    "version": "2.0.3",
+    "version": "2.1.0",
     "publisher": "ncodefun",
     "engines": {
         "vscode": "^1.19.0"
