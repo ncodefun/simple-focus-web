@@ -1,10 +1,15 @@
 # Change Log
 
+## [2.2.0] (2018-11-20)
+	
+
+## [2.1.1] (2018-11-16)
+	sass fix (I started using sass, probably more adjustment to come)
+
 ## [2.1.0] (2018-11-15)
 	comments are now a lot darker (use 'better comments' extension for special colored comments)
 	added inherited class color
 	fixes with quotes
-
 
 ## [2.0.3] (2018-10-02)
 	Fixed object literal key was green instead of blue
