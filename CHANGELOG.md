@@ -1,7 +1,8 @@
 # Change Log
 
 ## [2.2.0] (2018-11-20)
-	
+	control flow are changed to a better blending more neutral color (rather than dark purple)
+	except loops and conditionals, that are now green
 
 ## [2.1.1] (2018-11-16)
 	sass fix (I started using sass, probably more adjustment to come)

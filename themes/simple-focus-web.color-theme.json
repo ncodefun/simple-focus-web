@@ -755,11 +755,12 @@
 			"scope": [
 				"keyword.control.loop",
 				"keyword.control.conditional",
+				"keyword.control.switch",
 				"entity.name.label.js",
 				"punctuation.separator.label.js"
 			],
 			"settings": {
-				"foreground": "#B4EBBD"
+				"foreground": "#B4EBBDaa"
 			}
 		},
 
