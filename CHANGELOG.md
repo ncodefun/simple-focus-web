@@ -1,9 +1,10 @@
 # Change Log
 
 ## [3.0.0] (2018-11-22)
+	Now the color palette is a lot more consistant as a whole
 	Many changes, notable:
-	- control flow, comments colors
-	- highlight color: range selection, selected line, matched bracket pairs, find match
+	- Syntax: changed colors of control flow, all form of comments
+	- UI: changed highlight colors of range selection, selected line, matched bracket pairs, find match
 	
 
 ## [2.1.1] (2018-11-16)
