@@ -1,119 +1,74 @@
 
-import { html } from './renderer.js';
-
-/**
- * Return index of a true thing
- * @param {array} arr a list of things to check
- */
-function thing( arr){ return arr }
-
-let x = 9; thing( x);
-const arr = [1,2,3]; arr[3] = 4;
-const obj = { key1: 'one' , 'key2': 'two' , "key3": 'three' }; obj.key1;
-
-Object.create(); JSON.stringify();
-
-class Thing { constructor() { super(); this.x = 0; }; methodA(){} } new Thing();
-
-document.createElement(); window.localStorage.setItem(); 
-
-/^test\w+[a-z].*[^i]$/g
-
-/// 	lit-html 
-html`
-	<div id='menu' @click='${ () => { this.open = !this.open } }'>
-`
-
 // line comment 
 /* block comment */
 /** Doc comment */
 
-//* 	These are 'better comments' styles 					
-
-/// 	These are 'better comments' styles 					
-
-
-
-
-
-
-
-
-
-
-
-
-
-///! 	important																	
-
-///- 																						
-
-///+ 																						
-
-
-
-
-///V 	violet																		
-
-///P 	purple																		
-
-
-//# 	section																		
-//- 	notes																			
-//!! 	warning																		
-//! 	important 
-
-
-//* ============================================================================
+import { html } from './renderer.js';
 
 /**
- * trying to put a bit of everything here...
- * @param {string} p1 should be some string
+ * Get the next or prev value of an array with current value
+ * @param {any} from_val	- initial value
+ * @param {Array} vals		- array
+ * @param {String} dir 		- symbolic representation of direction and wrapping:
+ * 													// >> << >>| |<< + - up down 1 -1
+ * @return {any}					-	the next or prev value
+ * Usage:  wrap -> cycle( val, vals, '>>') 	no-wrap -> cycle( val, vals, '>>|') 
  */
-function demo( p1, answer=false){
-	for( let i=0; i<10; i++){ /**/ }
-	if( answer===true)
-		return 'treasure' in p1 || false;
+export const cycle = (from_val, vals, dir='>>', wrap=null) => /(\>\>|\+|up|1)/.test(dir) ? 
+	vals[ nextIndexOf( from_val, vals, wrap !== null ? wrap : dir.endsWith('|')) ] :
+	vals[ prevIndexOf( from_val, vals, wrap !== null ? wrap : dir.startsWith('|')) ];
+
+export default class Thing { 
+	constructor(){ super(); this.x = 0; }; 
+	methodA(){ console.log('this works')} 
 }
-const obj = {
-	test: 		true,
-	'testn': 	'true',
-	'smokn': 	'true'
-}
-const arr = [];
-const func = () => (null, undefined, 1 + 2 - 3 / 4 * 5 >= 6 || 7 ** 8 && 9)
-func()
+new Thing();
 
 
+export function lachose( arr){
 
-//# lit-html with the lit-html extension;  (this color is better comments extension)
-
-const menu = html`
-	<div id='menu-header' @click='${ () => { this.open = !this.open } }'>
-	${ this.scenes.map( scene => html`
-		<div>${ scene.name }</div>
-	`)}
-`;
-const v = html`test`
-let obj = { prop: `string template`, path: "C:\\windows" };
-
-var re = /^th[^ia]t\[thing\]\s*([a-zA-Z]+)$/g;
-
-
-
-
-
-/**
- * trying to put a bit of everything here...
- * @param {string} p1 should be some string
- */
-function testingOneTwo(){
-	if( test[0] > 1.2 || Number.isNaN(x)){
-		for( let t of tests){
-			if( typeof t === 'string'){ /**/ }
-			const o = Object.assign({ prop:'' })
+	labelA:
+	for( let i=0; i < arr.length; i++){
+		if( i === 9){
+			val = arr[ i];
+			break labelA
 		}
+	}
+	switch( val){
+		case 10: 
+			return true
+		default: 
+			return false
 	}
 }
 
-parseInt( this)
+/// darker quotes, string keys stays blue ///
+const obj1 = { key1: 'one' , 'key2': 'two' , "key3": 'three' }; obj1.key1;
+
+let obj2 	 = { prop: `string template`, path: "C:\\windows" };
+
+const arr  = [1,2,3]; arr[3] = 4;
+
+var re = /^th[^ia]t\[thing\]\s*([a-zA-Z]+)$/g;
+
+Object.create(); JSON.stringify(); document.createElement(); window.localStorage.setItem(); 
+
+const func = () => (null, undefined, 1 + 2 - 3 / 4 * 5 >= 6 || 7 ** 8 && 9)
+
+//// 	lit-html (needs lit-html extension for proper syntax highlighting)  ////
+const menu = () => html`
+	<div id='menu-header' @click='${ () => { this.open = !this.open } }'>
+		${ this.scenes.map( scene => html`<div>${ scene.name }</div>`) }
+	</div>`;
+
+
+
+
+
+
+
+func()
+menu()
+lachose()
+re;
+obj2;

@@ -3,10 +3,14 @@
 main#app > div[data-state='ready']::after {
 	content: 'hello';
 }
+nav > .menu:not(.open) button {
+	display: none;
+}
 
 @media screen and (min-aspect-ratio: 1/2) {
 	main {
-		color: red;
+		display: block;
+		background-image: url(/assets.images/img.png);
 	}
 }
 

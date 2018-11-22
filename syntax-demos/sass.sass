@@ -1,0 +1,31 @@
+
+
+main#app > div[data-state='ready']::after
+	content: 'hello'
+
+nav > .menu:not(.open) button
+	display: none
+
+@media screen and (min-aspect-ratio: 1/2)
+	main
+		display: block
+		background-image: url(/assets.images/img.png)
+
+@keyframes sliding-appear
+	0%
+		transform: translateX(-60%) rotateY(-45deg)
+	100%
+		transform: translateX(0) rotateY(0)
+
+
+
+
+
+
+	
+
+//// SASS grammar limits / differences with CSS:
+// ! url() is seen as a constant instead of a support.function
+// ! square brackets undifferenciated from attribute selector
+// ! no css ratio value (1/2) as whole unit
+// # no keyframe positions (0%) as whole unit (OK, unwanted in CSS grammar)
