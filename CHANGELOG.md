@@ -1,8 +1,10 @@
 # Change Log
 
-## [3.0.0] (2018-11-21)
-	changed control flow, comments
-	FINAL version of this theme, only corrections from now on
+## [3.0.0] (2018-11-22)
+	Many changes, notable:
+	- control flow, comments colors
+	- highlight color: range selection, selected line, matched bracket pairs, find match
+	
 
 ## [2.1.1] (2018-11-16)
 	sass fix (I started using sass, probably more adjustment to come)
