@@ -1,5 +1,8 @@
 # Change Log
 
+## [3.0.4] (2018-12-08)
+	Fixed problem with wrong extension display name
+
 ## [3.0.0] (2018-11-22)
 	Now the color palette is a lot more consistant as a whole
 	Many changes, notable:

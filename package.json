@@ -1,8 +1,8 @@
 {
     "name": "simple-focus-web",
-    "displayName": "Simple Focus Web",
+    "displayName": "Simple Focus",
     "description": "Relaxing theme using a limited, consistant color palette, focusing on important stuff. Works great with lit-html.",
-    "version": "3.0.2",
+    "version": "3.0.4",
     "publisher": "ncodefun",
     "engines": {
         "vscode": "^1.19.0"
@@ -13,7 +13,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Simple Focus Web",
+                "label": "Simple Focus",
                 "uiTheme": "vs-dark",
                 "path": "./themes/simple-focus-web.color-theme.json"
             }
