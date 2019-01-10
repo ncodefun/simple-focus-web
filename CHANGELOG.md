@@ -1,15 +1,18 @@
 # Change Log
 
+## [3.1.0] (2019-01-10)
+	- Added `async` to "emphasized control flow" (those easy to miss...) color category (bright purple, like `await`, `break`)
+	- DOM properties are now colored like other properties to avoid an uncolored prop on an object because it's named as a DOM property (like .checked)
+
 ## [3.0.4] (2018-12-08)
 	Fixed problem with wrong extension display name
 
 ## [3.0.0] (2018-11-22)
-	Now the color palette is a lot more consistant as a whole
+	Now the color palette is a lot more consistent as a whole
 	Many changes, notable:
 	- Syntax: changed colors of control flow, all form of comments
 	- UI: changed highlight colors of range selection, selected line, matched bracket pairs, find match
 	
-
 ## [2.1.1] (2018-11-16)
 	sass fix (I started using sass, probably more adjustment to come)
 

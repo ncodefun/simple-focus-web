@@ -38,7 +38,7 @@
 		"input.background": "#171a1a",
 		"input.foreground": "#ffffff",
 		"input.placeholderForeground": "#90a9a5",
-		"list.activeSelectionBackground": "#81a8a1cc",
+		"list.activeSelectionBackground":"#81a8a144",
 		"list.dropBackground": "#383b3d",
 		"list.focusBackground": "#81a8a122",
 		"list.focusForeground": "#cbfff9",
@@ -442,7 +442,6 @@
 			"name": "control",
 			"scope": [
 				"keyword.control",
-				"storage.modifier.async.js",
 			],
 			"settings": {
 				"foreground": "#688280"
@@ -469,6 +468,7 @@
 				"punctuation.accessor",
 				"variable.other.object.property",
 				"variable.other.property.js",
+				"support.variable.property.dom.js",
 				"support.type.property-name.json",
 				"support.type.property-name",
 				"entity.other.attribute-selector" // attributes
@@ -720,7 +720,8 @@
 			"scope": [
 				"keyword.control.flow",
 				"entity.name.label.js",
-				"punctuation.separator.label.js"
+				"punctuation.separator.label.js",
+				"storage.modifier.async.js",
 			],
 			"settings": {
 				"foreground": "#ac9fba"//9fd2a9"
