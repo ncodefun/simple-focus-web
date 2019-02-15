@@ -1,5 +1,8 @@
 # Change Log
 
+## [3.2.0] (2019-02-15)
+	- Adjusted list (file explorer) colors and added colors for the new filter widget
+
 ## [3.1.0] (2019-01-10)
 	- Added `async` to "emphasized control flow" (those easy to miss...) color category (bright purple, like `await`, `break`)
 	- DOM properties are now colored like other properties to avoid an uncolored prop on an object because it's named as a DOM property (like .checked)
