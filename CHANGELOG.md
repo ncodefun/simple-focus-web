@@ -1,5 +1,9 @@
 # Change Log
 
+## [4.0.0] (2019-05-03) 
+	- Major change with too dark colors for HTML tags and CSS (if you prefer the old version just right-click the extension in the extensions panel, and choose install another version...) 
+	- CSS selectors and HTML tags are easier to see, even if this add an other vivid hue to the palette at the risk of starting to look like a Christmas tree, but this is way better in terms of functionality!
+
 ## [3.2.0] (2019-02-15)
 	- Adjusted list (file explorer) colors and added colors for the new filter widget
 

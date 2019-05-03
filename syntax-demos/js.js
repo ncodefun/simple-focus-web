@@ -1,7 +1,14 @@
+/* no-tscheck */
 
+/**
+ *  Theme goals: 
+ * 	minimal (e.g. single color for all values)
+ * 	consistant colors, chosen and hierarchised according to their brightness
+ *	darker colors for symbols to keep the focus on names
+ *
+ */	
 // line comment 
 /* block comment */
-/** Doc comment */
 
 import { html } from './renderer.js';
 
@@ -12,7 +19,7 @@ import { html } from './renderer.js';
  * @param {String} dir 		- symbolic representation of direction and wrapping:
  * 													// >> << >>| |<< + - up down 1 -1
  * @return {any}					-	the next or prev value
- * Usage:  wrap -> cycle( val, vals, '>>') 	no-wrap -> cycle( val, vals, '>>|') 
+ * Usage:  wrap -> cycle( val, vals, '>>'); 	no-wrap -> cycle( val, vals, '>>|') 
  */
 export const cycle = (from_val, vals, dir='>>', wrap=null) => /(\>\>|\+|up|1)/.test(dir) ? 
 	vals[ nextIndexOf( from_val, vals, wrap !== null ? wrap : dir.endsWith('|')) ] :
@@ -42,10 +49,11 @@ export function lachose( arr){
 	}
 }
 
-/// darker quotes, string keys stays blue ///
-const obj1 = { key1: 'one' , 'key2': 'two' , "key3": 'three' }; obj1.key1;
+/// darker quotes, keys stays blue even if string, with blue quotes! ///
 
-let obj2 	 = { prop: `string template`, path: "C:\\windows" };
+const obj1 = { key1: 'one' , 'key2': 'two' , "key3": "three" }; obj1.key1;
+
+let obj2 	 = { prop: `string template ${ obj1.key1 }`, path: "C:\\windows" };
 
 const arr  = [1,2,3]; arr[3] = 4;
 
@@ -55,7 +63,7 @@ Object.create(); JSON.stringify(); document.createElement(); window.localStorage
 
 const func = () => (null, undefined, 1 + 2 - 3 / 4 * 5 >= 6 || 7 ** 8 && 9)
 
-//// 	lit-html (needs lit-html extension for proper syntax highlighting)  ////
+/// 	lit-html (needs lit-html extension for proper syntax highlighting) 
 const menu = () => html`
 	<div id='menu-header' @click='${ () => { this.open = !this.open } }'>
 		${ this.scenes.map( scene => html`<div>${ scene.name }</div>`) }
@@ -65,6 +73,13 @@ const menu = () => html`
 
 
 
+
+/**  Better comments extension  */
+///  	notes
+////	important info 
+//!!	warning
+//!		watch out
+//?		questions / todo etc.
 
 
 func()

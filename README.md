@@ -14,15 +14,15 @@ Dark theme with relaxing colors, using the same color to similar syntax elements
 
 ### HTML
 
-![html screenshot](./screenshots/preview-html.png)
+![html screenshot](./screenshots/preview-html2.png)
 
 ### CSS
 
-![css screenshot](./screenshots/preview-css.png)
+![css screenshot](./screenshots/preview-css2.png)
 
 ### SASS
 
-![sass screenshot](./screenshots/preview-sass.png)
+![sass screenshot](./screenshots/preview-sass2.png)
 
 ### JSON
 
