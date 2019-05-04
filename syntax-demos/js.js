@@ -5,7 +5,9 @@
  * 	minimal (e.g. single color for all values)
  * 	consistant colors, chosen and hierarchised according to their brightness
  *	darker colors for symbols to keep the focus on names
- *
+ *	try when possible to use context for even better consistancy: 
+ 		e.g. quotes on object keys adopt a similar blue as keys, 
+		while string quotes adopt a dark green similar to values.
  */	
 // line comment 
 /* block comment */
