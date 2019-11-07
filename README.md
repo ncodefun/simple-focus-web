@@ -3,7 +3,7 @@
 
 ## A simple, unique color theme for VS Code. 
 
-Made for elegance and functionality rather than "each thing its own color". Using a few bright colors to focus important parts of your code, reusing colors where it doesn't affect functionality. For example all values share the same brightest color so all values are absolutely contrasted to all the rest, more or less.
+Made for elegance and functionality rather than "each thing its own color". Using a few bright colors to focus important parts of your code, reusing colors where it doesn't affect functionality. For example all values share the same brightest color so all values stand out equally; this make it easier to find them through the visual noise of everything else.
 
 *Tested for JS / HTML / CSS / JSON / MD*
 
@@ -16,7 +16,7 @@ Made for elegance and functionality rather than "each thing its own color". Usin
 ![js screenshot](./screenshots/new-preview-JS.png)
 
 ### HTML
-![html screenshot](./screenshots/new-preview-HTML.png)
+![html screenshot](./screenshots/preview-HTML.png)
 
 ### CSS
 ![css screenshot](./screenshots/new-preview-CSS.png)
