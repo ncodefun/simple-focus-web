@@ -1,5 +1,9 @@
 # Change Log
 
+
+## [4.0.4] (2019-11-06) 
+	Fixes and uniformisation
+
 ## [4.0.0] (2019-05-24) 
 	- Lot of changes to make things simpler (less variations of the same colors) and clearer / brighter (control flow elements like if/else, return etc. and UI selection / find highlight).
 
