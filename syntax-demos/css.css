@@ -1,20 +1,21 @@
 
-
-main#app > div[data-state='ready']::after {
+main#app[data-state='ready'] > div::after {
 	content: 'hello';
 }
-nav > .menu:not(.open) button {
-	display: none;
+
+nav.left:not(.open) {
+	transform: translateX(-101%);
+}
+
+.effect {
+	animation: slide-rotate-reveal .5s ease-out;
 }
 
 @media screen and (min-aspect-ratio: 1/2) {
-	main {
-		display: block;
-		background-image: url(/assets.images/img.png);
-	}
+	/** alt layout */
 }
 
-@keyframes sliding-appear {
+@keyframes slide-rotate-reveal {
 	0% {
 		transform: translateX(-60%) rotateY(-45deg);
 	}
@@ -22,4 +23,3 @@ nav > .menu:not(.open) button {
 		transform: translateX(0) rotateY(0);
 	}
 }
-

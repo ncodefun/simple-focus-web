@@ -1,7 +1,7 @@
 {
     "name": "simple-focus-web",
     "displayName": "Simple Focus",
-    "description": "Relaxing theme using a limited, consistant color palette, focusing on important stuff. Works great with lit-html.",
+    "description": "Relaxing theme using a limited color palette, focusing on important stuff. Works great with lit-html.",
     "version": "4.0.0",
     "publisher": "ncodefun",
     "engines": {

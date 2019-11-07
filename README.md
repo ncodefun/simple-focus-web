@@ -1,33 +1,27 @@
 
 # Simple Focus Web
 
-## VS Code relaxing theme using a limited, consistant color palette that is easy on the eyes.
+## A simple, unique color theme for VS Code. 
 
-**Tested with JS/HTML/CSS/SASS/JSON**
+Made for elegance and functionality rather than "each thing its own color". Using a few bright colors to focus important parts of your code, reusing colors where it doesn't affect functionality. For example all values share the same brightest color so all values are absolutely contrasted to all the rest, more or less.
 
-Dark theme with relaxing colors, using the same color to similar syntax elements, reducing color clutter/noise (higher cognitive load), making it (hopefully) easier and more intuitive to quickly find what you want.
+*Tested for JS / HTML / CSS / JSON / MD*
 
 
-### Javascript, Javascript + HTML (lit-html)
 
+### UI / JS + HTML
+![UI screenshot](./screenshots/preview-JS+HTML+UI+metacore.png)
+
+### Javascript (+ HTML as a string template literal)
 ![js screenshot](./screenshots/preview-js.png)
 
 ### HTML
-
-![html screenshot](./screenshots/preview-html2.png)
+![html screenshot](./screenshots/preview-HTML.png)
 
 ### CSS
-
-![css screenshot](./screenshots/preview-css2.png)
-
-### SASS
-
-![sass screenshot](./screenshots/preview-sass2.png)
+![css screenshot](./screenshots/preview-css.png)
 
 ### JSON
-
 ![json screenshot](./screenshots/preview-json.png)
 
-### UI
 
-![json screenshot](./screenshots/preview-UI.png)
