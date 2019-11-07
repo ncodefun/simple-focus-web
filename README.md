@@ -10,18 +10,16 @@ Made for elegance and functionality rather than "each thing its own color". Usin
 
 
 ### UI / JS + HTML
-![UI screenshot](./screenshots/preview-JS+HTML+UI+metacore.png)
+![UI screenshot](./screenshots/new-preview-JS+HTML+UI+metacore.png)
 
 ### Javascript (+ HTML as a string template literal)
-![js screenshot](./screenshots/preview-js.png)
+![js screenshot](./screenshots/new-preview-JS.png)
 
 ### HTML
-![html screenshot](./screenshots/preview-HTML.png)
+![html screenshot](./screenshots/new-preview-HTML.png)
 
 ### CSS
-![css screenshot](./screenshots/preview-css.png)
+![css screenshot](./screenshots/new-preview-CSS.png)
 
 ### JSON
-![json screenshot](./screenshots/preview-json.png)
-
-
+![json screenshot](./screenshots/new-preview-JSON.png)
