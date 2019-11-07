@@ -16,7 +16,7 @@ Made for elegance and functionality rather than "each thing its own color". Usin
 ![js screenshot](./screenshots/new-preview-JS.png)
 
 ### HTML
-![html screenshot](./screenshots/preview-HTML.png)
+![html screenshot](./screenshots/new-preview-HTML.png)
 
 ### CSS
 ![css screenshot](./screenshots/new-preview-CSS.png)
