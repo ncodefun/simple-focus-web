@@ -2,7 +2,7 @@
     "name": "simple-focus-web",
     "displayName": "Simple Focus",
     "description": "Relaxing theme using a limited color palette, focusing on important stuff. Works great with lit-html.",
-    "version": "4.0.2",
+    "version": "4.0.3",
     "publisher": "ncodefun",
     "engines": {
         "vscode": "^1.19.0"
