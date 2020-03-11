@@ -448,6 +448,7 @@
 				"meta.property-name.css",
 				"punctuation.accessor",
 				"variable.other.object.property",
+				"property",
 				"variable.other.property.js",
 				"support.variable.property.dom.js",
 				"support.type.property-name.json",
@@ -646,7 +647,6 @@
 				// "punctuation.definition.string.template.begin.js",
 				"punctuation.definition.template-expression",
 				"keyword.control.at-rule",
-				
 			],
 			"settings": {
 				"foreground": "#cbc5ffcc"

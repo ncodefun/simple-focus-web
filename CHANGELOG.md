@@ -1,6 +1,9 @@
 # Change Log
 
 
+## [4.1.0] (2020-03-11) 
+	Fix for VS Code 1.43
+
 ## [4.0.5] (2019-11-06) 
 	Fixes and uniformisation
 
