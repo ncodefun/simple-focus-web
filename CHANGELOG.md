@@ -1,8 +1,8 @@
 # Change Log
 
 
-## [4.3.0] (2020-03-11) 
-	Re-fix for VS Code 1.43
+## [4.4.0] (2020-03-16) 
+	(Another) Fix for VS Code 1.43 semantic highlighting overrides
 
 ## [4.0.5] (2019-11-06) 
 	Fixes and uniformisation

@@ -341,6 +341,7 @@
 				"meta.ratio.css keyword.operator.arithmetic.css",
 				"variable.parameter.keyframe-list.css",
 				"variable.parameter.url.css",
+				"variable.argument.css",
 				"markup.underline.link.image.markdown"
 			],
 			"settings": {
@@ -449,7 +450,6 @@
 				"meta.property-name.css",
 				"punctuation.accessor",
 				"variable.other.object.property",
-
 				"variable.other.property.js",
 				"support.variable.property.dom.js",
 				"support.type.property-name.json",
@@ -458,9 +458,11 @@
 				"meta.object-literal.key",
 				"meta.object-literal.key string.quoted.single.js",
 				"meta.object-literal.key string.quoted.double.js",
+				"meta.property-list", /// css custom props, 
 				"variable.other.jsdoc",
 				"entity.other.attribute-name.html",
-				"meta.objectliteral.js"
+				"meta.objectliteral.js",
+				
 			],
 			"settings": {
 				"foreground": "#cbffee"
@@ -539,10 +541,12 @@
 		{
 			"name": "dark gray cyan: braces, parens, punctuation",
 			"scope": [
+				//"source.css meta.function",
+				"meta.attribute.unrecognized.comment.html entity.other.attribute-name.html",
+				"meta.object-literal.key string.quoted punctuation.definition.string",
 				"meta.brace.round",
 				"meta.parameters.js",
 				"meta.tag",
-				"meta.property-list",
 				"meta.objectliteral punctuation.separator",
 				"meta.array.literal punctuation.separator",
 				"meta.brace.square",
@@ -555,11 +559,9 @@
 				"punctuation.definition.parameters.end",
 				"punctuation.definition.block",
 				"punctuation.support.type.property-name",
-				"meta.object-literal.key string.quoted punctuation.definition.string",
-				"source.css meta.function",
 				"punctuation.section.function",
 				"punctuation.terminator.rule.css",
-				"meta.attribute.unrecognized.comment.html entity.other.attribute-name.html"
+				"punctuation.section.property-list",
 			],
 			"settings": {
 				"foreground": "#74938D"//#83B0A8cc"
@@ -607,7 +609,8 @@
 				"meta.at-rule.media.header.css",
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"keyword.operator.combinator.css"
+				"keyword.operator.combinator.css",
+				
 			],
 			"settings": {
 				"foreground": "#ddff9e",
