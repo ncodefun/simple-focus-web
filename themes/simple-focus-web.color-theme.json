@@ -306,7 +306,8 @@
 			"name": "variables",
 			"scope": [
 				"support.variable",
-				"meta.definition.variable"
+				"meta.definition.variable",
+				"variable.other.object.js",
 			],
 			"settings": {
 				"foreground": "#fff"
@@ -379,7 +380,7 @@
 		{
 			"name": "Aquamarine × Palegreen",
 			"scope": [
-				// "variable.other.object.js",
+				
 
 				"support.variable.dom.js",
 				"entity.other.inherited-class.js",
