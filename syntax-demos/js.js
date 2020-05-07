@@ -14,14 +14,22 @@ const func = () => (null, undefined, 1 + 2 - 3 / 4 * 5 >= 6 || 7 ** 8 && 9)
 /** darker quotes, obj. prop. stay blue even when a string, with blue quotes! */
 let obj1 = { key1: 'one' , 'key2': 'two' , "key3": "three", path: "C:\\windows", prop: `string template ${ obj1.key1 }` };
 
+e.target.value.split(/\s+/)
+
 const arr  = [1,2,3]; arr[3] = 4;
 var re = /^th[^ia]\[ia\]\s*([a-zA-Z]+)$/g;
 
-Object.create(); JSON.stringify(); window.localStorage.setItem(); 
+Object.create();
+
+let str = JSON.stringify( obj); str;
+localStorage.setItem(); 
+ window.localStorage.setItem(); 
+
+
 
 export default class Thing { 
 	constructor(){ super(); this.x = 0; }; 
-	methodA(){ console.log('this works')} 
+	methodA(){ console.log('this works') } 
 }
 new Thing();
 /// 	lit-html (needs lit-html extension for proper syntax highlighting) 

@@ -1,5 +1,11 @@
 # Change Log
 
+## [5.0.1] (2020-05-07)
+	Fixed dom properties color (like e.target.value)
+
+## [5.0.0] (2020-05-04) 
+	Fixed unreadable status bar when only a file is opened rather than a folder
+	Clean rewrite with few adjustments
 
 ## [4.4.0] (2020-03-16) 
 	(Another) Fix for VS Code 1.43 semantic highlighting overrides
