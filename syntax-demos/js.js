@@ -1,8 +1,12 @@
 /* no-tscheck */
 
-
-// line comment 
 /* block comment */
+// line comment 
+/** doc block comment */
+/** 
+ * doc block comment 
+ */
+/// better line comment
 
 import { html } from './renderer.js';
 
@@ -11,34 +15,64 @@ import { html } from './renderer.js';
  * @param {String} dir 		- symbolic
  */
 const func = () => (null, undefined, 1 + 2 - 3 / 4 * 5 >= 6 || 7 ** 8 && 9)
-/** darker quotes, obj. prop. stay blue even when a string, with blue quotes! */
-let obj1 = { key1: 'one' , 'key2': 'two' , "key3": "three", path: "C:\\windows", prop: `string template ${ obj1.key1 }` };
 
+/** darker quotes, obj. prop. stay blue even when a string, with blue quotes! */
+let obj1 = { key1: 'one' , 'key2': 'two' , "key3": "three", path: "C:\\windows", prop: `string template ${ obj.key1 }` };
+var o = {}
+const b = 0
+o.test
 e.target.value.split(/\s+/)
 
-const arr  = [1,2,3]; arr[3] = 4;
+const arr = [1,2,3]; arr[3] = 4;
+
 var re = /^th[^ia]\[ia\]\s*([a-zA-Z]+)$/g;
 
-Object.create();
+`string template ${ obj1.key1 }`
+let win = {}
+win.c
 
-let str = JSON.stringify( obj); str;
-localStorage.setItem(); 
- window.localStorage.setItem(); 
+this.x; this.a;
 
+Object.create(); 
+Math.round(); 
+JSON.stringify(); 
+console.log('this works')
 
+localStorage.setItem();
+localStorage.myprop
+window.localStorage.setItem(); 
+window.localStorage.myprop;
 
-export default class Thing { 
+if( arr.length > 1) go()
+let a = [2].length
+for( let k in cell)
+	if( k.num===1)
+
+'abc'.endsWith('xyz')
+let reg = /xyz.*/.test('abc')
+
+export default 
+class Thing { 
 	constructor(){ super(); this.x = 0; }; 
-	methodA(){ console.log('this works') } 
+	method(){ this.a; Math.abs(3.2) } 
+	test(){
+		this.scenes = []
+		this.scenes.map( v => v+1)
+	}
 }
 new Thing();
-/// 	lit-html (needs lit-html extension for proper syntax highlighting) 
+Thing.props = {}
+define( 'my-thing', Thing)
+
+
+/// lit-html (needs lit-html extension for proper syntax highlighting) 
 const menu = (state) => html`
 	<div id='menu-header' @click=${ this.onClickHeader }>
-		${ this.scenes.map( scene => html`<div>${ scene.name }</div>`) }
+		${ this.scenes.map( scene => html`<div>${ scene.nam }</div>`) }
 	</div>
 `;
-export function lachose( arr){
+
+function lachose( arr=[]){
 
 	labelA:
 	for( let i=0; i < arr.length; i++){
@@ -59,7 +93,6 @@ export function lachose( arr){
 export const cycle = (from_val, vals, dir='>>', wrap=null) => /(\>\>|\+|up|1)/.test(dir) ? 
 	vals[ nextIndexOf( from_val, vals, wrap !== null ? wrap : dir.endsWith('|')) ] :
 	vals[ prevIndexOf( from_val, vals, wrap !== null ? wrap : dir.startsWith('|')) ];
-
 
 
 

@@ -4,6 +4,7 @@
 	"semanticHighlighting": true,
 	"colors": {
 		// 2/3 => #AA, 1/3 => #55
+		"editor.foldBackground":"#ffffff03",
 		"activityBar.background": "#212426",
 		"activityBarBadge.background": "#b0ff91",
 		"activityBarBadge.foreground": "#111111",
@@ -261,7 +262,61 @@
 		//"titleBar.inactiveBackground": "#21242699",
 		//"titleBar.inactiveForeground": "#cbfff999"
 	},
+	"semanticTokenColors": {
+		// "namespace": "#fa00fa",
+		// "type": "#ff1d1d",
+		// "struct": "#00ff22",
+		"class": "#B4EBBD",
+		// "*.readonly": {
+		// 		//"foreground": "#ffffff",
+		// 		"fontStyle": "italic"
+		// },
+		// "*.declaration" : {
+		// 		"fontStyle": "bold"
+		// },
+		// "*.readonly" : "#ffffff",
+	
+		// "variable": {
+		// 	"foreground": "#FFF",
+		// 	"fontStyle": ""
+		// },
+		// "class.defaultLibrary" : "#ffe49b",
+		// "variable.defaultLibrary" : "#ffe49b",
+		// "property.defaultLibrary" : "#ffe49b",
+		// "member.defaultLibrary" : "#ffe49b",
+
+
+		// "class.defaultLibrary" : "#d8d3ff",
+		// "variable.defaultLibrary" : "#d8d3ff", /// blueberry: #c6d5ff
+		// "property.defaultLibrary" : "#cdc6ff",
+		// "member.defaultLibrary" : "#cdc6ff",
+
+		"class.defaultLibrary" : {
+			"foreground": "#cbff9b",
+			"fontStyle": "italic"
+		},
+		"property.defaultLibrary" : {
+			"foreground": "#cbff9b",
+			"fontStyle": "italic"
+		},
+		"variable.defaultLibrary" : {
+			"foreground": "#cbff9b",
+			"fontStyle": "italic"
+		},
+		"member.defaultLibrary" : {
+			"foreground": "#cbff9b",
+			"fontStyle": "italic"
+		},
+		"property.readonly.defaultLibrary" : "#cbffee",
+  },
 	"tokenColors": [
+		{
+			"scope": "variable.other.property.js", 
+			"settings": {
+				"foreground": "#cbffee", //#cbff9b
+				"fontStyle": ""
+			}
+		},
 		{
 			"scope": [
 				"markup.heading.markdown",
@@ -306,13 +361,26 @@
 		{
 			"name": "white (variables, regex string)",
 			"scope": [
-				"variable",
-				"entity.name.variable",
+				//"variable",
+				//"entity.name.variable",
+				//"variable.other.readwrite.js",
+				"variable.other.object.js",
+				"string.template.js variable", 
+				"meta.var.expr.js variable.other.object.js",
 				"string.regexp",
 				"constant.other.character-class.set.regexp",
+				"meta.function-call.ts variable",
+				"meta.template.expression.ts"
 			],
 			"settings": {
 				"foreground": "#fff",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": "string.template.js variable.other.property", 
+			"settings": {
+				"foreground": "#cbffee", //#cbff9b
 				"fontStyle": ""
 			}
 		},
@@ -355,27 +423,54 @@
 		{
 			"name": "Aquamarine × Palegreen",
 			"scope": [
-				"entity",
-				"support.constant",
+				//"entity",
+				//"support.constant",
 				"variable.language.this",
+				//"variable.other.object.js",
+				"source.js class",
+				"entity.name.type.class.js",
+				"entity.name.type.js",
+
+				// "variable.defaultLibrary",
+				// "variable.readonly.defaultLibrary",
+				// "class.defaultLibrary",
 				
-				"support.constant.json.js",
-				"support.class.console.js",
-				"support.class.builtin.js", //! buggy
-				"defaultLibrary",
 				"meta.selector.css",
 				"source.css entity.name.tag",
 				"storage.type.class.jsdoc",
 				"punctuation.definition.block.tag.jsdoc",
+				//"meta.method.declaration storage" // constroctor and method let, const etc.
 			],
 			"settings": {
 				"foreground": "#B4EBBD", //8bc0b7", 
 			}
 		},
 		{
-			"name": "pale yellow-green (params / arguments)",
 			"scope": [
-				"variable.parameter",
+				// "variable.language.this",
+				"support.constant.math.js",
+				"support.class.builtin.js",
+				"support.constant.json.js",
+				"support.class.console.js",
+				//"support.variable.dom.js",
+				//"variable.other.object.js", // localStorage
+			],
+			"settings": {
+				"foreground": "#cbff9b",
+			}
+		},
+		// {
+		// 	"scope": [
+				
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#7ccfc7",
+				
+		// 	}
+		// },
+		{
+			"name": "pale yellow-green",
+			"scope": [
 				"source.css variable",
 			],
 			"settings": {
@@ -384,13 +479,12 @@
 			}
 		},
 		{
-			"name": "pale yellow-green (params / arguments)",
 			"scope": [
-				"support.variable.property.dom.js",
+				"variable.parameter",
 			],
 			"settings": {
-				"foreground": "#ccffb8",
-				
+				"foreground": "#cdf7e9", //"#c0ddd1", //"#daffb8"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -425,25 +519,29 @@
 				"variable.language.super.js",
 			],
 			"settings": {
-				"foreground": "#80c4bd"
+				"foreground": "#CBFF9B",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "light cyan (obj. keys, attr. names)",
 			"scope": [
-				
+				//"variable.other.constant", ??
 				"meta.object-literal.key",
 				"meta.object-literal.key string.quoted.single.js",
 				"meta.object-literal.key string.quoted.double.js",
 				"meta.property-name.css",
 				"variable.css",
 				"entity.other.attribute-name.css",
-				"variable.other.property",
+				
+				"support.variable.property",
 				"punctuation.accessor",
 				"string support.type.property-name", //meta.structure.dictionary.value 
 				"entity.other.attribute-name.html",
 				"variable.other.jsdoc",
 				"variable.other.object.property.js",
+				
+				"support.variable.property.dom"
 			],
 			"settings": {
 				"foreground": "#cbffee",
@@ -506,7 +604,6 @@
 				"meta.brace",
 				"meta.object-literal.key punctuation.definition.string",
 				"meta.structure.dictionary.value support.type.property-name punctuation.definition.string",
-				"comment",
 				"support.type.property-name.json.comments punctuation", /// json 
 			],
 			"settings": {
@@ -534,8 +631,10 @@
 		{
 			"name": "jsdocs documentation",
 			"scope": [
+				"comment.line.double-slash",
 				"comment.block.documentation",
-				"comment.block.documentation punctuation.definition.comment"
+				"comment.block.documentation punctuation.definition.comment",
+				"comment.block.css"
 			],
 			"settings": {
 				"foreground": "#81a8a1a1",
@@ -640,11 +739,10 @@
 			"name": "dark blue (comments)",
 			"scope": [
 				"comment",
-				"comment.line.double-slash.js",
 				"punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#565f5f",
+				"foreground": "#81a8a15d",
 			}
 		},
 
@@ -654,6 +752,7 @@
 			"scope": [
 				"entity.name.label",
 				"meta.attribute.unrecognized entity.other.attribute-name.html",
+				"support.variable.property.dom"
 			],
 			"settings": {
 				"fontStyle": "italic"

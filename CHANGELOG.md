@@ -1,5 +1,8 @@
 # Change Log
 
+## [5.1.0] (2021-01-21)
+	Last update – adress some consistency problems, but theming in VS code (and others) is a total mess, a true never ending whack-a-mole game… I've done my best!
+
 ## [5.0.1] (2020-05-07)
 	Fixed dom properties color (like e.target.value)
 
